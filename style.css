@@ -29,6 +29,31 @@ a{
   color: white;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+  background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+} 
+
 #Links {
   background-color: #662e9b;
   color: white;
@@ -79,8 +104,8 @@ a{
 }
 
 .resize{
-  max-height: 30%;
-  max-width: 30%;
+  height: 40px;
+  width: 40px;
 }
 
 .resize1{
@@ -168,6 +193,18 @@ a{
 }
 #yellowbreak{
   border-bottom: solid 10px #f9c80e;
+}
+#showcase1{
+  border: solid 0.25em #ea3546;
+}
+#showcase2{
+  border: solid 0.25em #f86624;
+}
+#showcase3{
+  border: solid 0.25em #f9c80e;
+}
+#showcase4{
+  border: solid 0.25em #43bccd;
 }
 <style>
 ul {
