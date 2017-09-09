@@ -206,6 +206,10 @@ div.panel {
 #showcase4{
   border: solid 0.25em #43bccd;
 }
+#lp{
+  background: #662e9b;
+  margin: 1em;
+}
 <style>
 ul {
   list-style-type: none;
