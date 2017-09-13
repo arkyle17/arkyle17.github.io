@@ -160,6 +160,14 @@ div.panel {
   padding: 1em;
 }
 
+#purple{
+  border-left: solid 25px #662e9b;
+  overflow: hidden;
+}
+
+#purple>p{
+  padding: 1em;
+}
 #bluebreak{
   border-bottom: solid 10px #43bccd;
 }
@@ -206,7 +214,23 @@ div.panel {
 #showcase4{
   border: solid 0.25em #43bccd;
 }
-#lp{
+#lpR{
+  background: #ea3546;
+  margin: 1em;
+}
+#lpO{
+  background: #f86624;
+  margin: 1em;
+}
+#lpY{
+  background: #f9c80e;
+  margin: 1em;
+}
+#lpB{
+  background: #43bccd;
+  margin: 1em;
+}
+#lpP{
   background: #662e9b;
   margin: 1em;
 }
