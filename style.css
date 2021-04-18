@@ -65,29 +65,28 @@ div.panel {
   padding: 2em
 }
 
-#navbar {
+nav {
   text-align: center;
+  width: 100vw;
   display: inline-block;
   margin: 0;
   padding: 0;
-  background: #662e9b;
+  background: #3399a6;
 }
 
-#navbar li {
+nav li {
   display: inline-block;
   text-align:center;
 }
 
-#friendofnav {
-  background: #662e9b;
-  width:100%;
-  height: 67px;
+.nav-img {
+  position: absolute;
+  top: 6px;
+  left: 8px;
 }
 
-#navbar2 {
-  background: #662e9b;
-  width:100%;
-  height:67px;
+nav ul {
+  margin-left: 50px;
 }
 
 #MakerEd {
@@ -131,6 +130,13 @@ div.panel {
   background-image: url("stripedfooter.jpg");
   width: 100%;
   height: 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-img {
+  display: block;
+  margin: 0 auto;
 }
 
 #orange{
@@ -234,14 +240,6 @@ div.panel {
   background: #662e9b;
   margin: 1em;
 }
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
 li {
   display: inline-block;
@@ -258,7 +256,7 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: white;
-  color: #662e9b;
+  color: #3399a6;
 }
 
 li.dropdown {
@@ -268,7 +266,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #3399a6;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -287,9 +285,8 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
-<style>
-ul {
+
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -299,7 +296,7 @@ ul {
   list-style: none;
   display: inline-block;
   width:100%;
-}
+} */
 
 li {
   float: left;
@@ -310,16 +307,15 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #662e9b;
 }
 
 li a:hover {
   background-color: white;
-  color: #662e9b;
+  color: #3399a6;
 }
 
 * {margin: 0; padding: 0;}
@@ -362,7 +358,7 @@ header p {
   animation: bannermove 30s linear infinite;
 }
 
-@keyframes "bannermove" {
+@keyframes bannermove {
   0% {
     margin-left: 0px;
   }
@@ -382,7 +378,7 @@ header p {
 
 }
 
-@-webkit-keyframes "bannermove" {
+@-webkit-keyframes bannermove {
   0% {
     margin-left: 0px;
   }
@@ -392,7 +388,7 @@ header p {
 
 }
 
-@-ms-keyframes "bannermove" {
+@-ms-keyframes bannermove {
   0% {
     margin-left: 0px;
   }
@@ -402,7 +398,7 @@ header p {
 
 }
 
-@-o-keyframes "bannermove" {
+@-o-keyframes bannermove {
   0% {
     margin-left: 0px;
   }
@@ -433,4 +429,3 @@ header p {
   -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
-</style>
