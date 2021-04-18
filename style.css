@@ -67,11 +67,12 @@ div.panel {
 
 nav {
   text-align: center;
-  width: 100vw;
+  width: 100%;
   display: inline-block;
   margin: 0;
   padding: 0;
   background: #3399a6;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 nav li {
@@ -94,10 +95,6 @@ nav ul {
   margin-left: 5%;
 }
 
-#Margin {
-  margin-right: 5%;
-  margin-left: 5%;
-}
 .indent {
   text-indent:30px;
 }
@@ -195,7 +192,11 @@ nav ul {
 
 #border{
   border: solid 0.25em #43bccd;
-  margin: 0.25em;
+}
+
+.float-left {
+  float: left;
+  margin: 0 15px 15px 0;
 }
 
 #redbreak{
@@ -286,17 +287,22 @@ li.dropdown {
   display: block;
 }
 
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #662e9b;
-  text-decoration: none;
-  list-style: none;
-  display: inline-block;
-  width:100%;
-} */
+.main-content {
+  margin: 40px 50px;
+}
+
+.home-main-content {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+main p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 li {
   float: left;
